@@ -1,0 +1,41 @@
+/* Reset Margin and Padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Navbar Style */
+.navbar {
+  background-color: #3b5998; /* Warna Biru */
+  color: white;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-brand {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.navbar-menu {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navbar-menu li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2em;
+  padding: 5px 10px;
+  transition: background-color 0.3s ease;
+}
+
+.navbar-menu li a:hover {
+  background-color: #4b70ba; /* Biru Lebih Terang Saat Dihover */
+  border-radius: 5px;
+}
+

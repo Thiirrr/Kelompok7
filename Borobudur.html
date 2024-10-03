@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GoDestinasi</title>
+    <link rel="stylesheet" href="kelompok.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-brand">GoDestinasi</div>
+        <ul class="navbar-menu">
+            <li><a href="index.html.html">Home</a></li>
+            <li><a href="login.html">User</a></li>
+            <li><a href="#search">Search</a></li>
+            <li><a href="About.html">About</a></li>
+        </ul>
+    </nav>
+
+    <!-- ImageSlide -->
+      <!-- Slider Container -->
+      <div class="slider-container">
+        <!-- Slide Images -->
+        <div class="slide fade">
+            <img src="Borobudur img/Museum Kapal Samudraraksa.png" alt="Gambar 1">
+        </div>
+        <div class="slide fade">
+            <img src="Borobudur img/Museum Borobudur.png" alt="Gambar 2">
+        </div>
+        <div class="slide fade">
+            <img src="Borobudur img/Galeri Unik & Seni Borobudur Indonesia.png" alt="Gambar 3">
+        </div>
+        <div class="slide fade">
+            <img src="Borobudur img/Svargabumi.png" alt="Gambar 4">
+        </div>
+
+        <!-- Navigation Arrows -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+
+    <!-- Dots Navigation -->
+    <div class="dots-container">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+    </div>
+
+    <script src="wisata.js"></script>
+    <!-- Bagian Utama -->
+    <main>
+        <link rel="stylesheet" href="wisata.css">
+        <!-- Tentang Bali -->
+        <section id="home" class="section-container">
+            <h1 style="text-align: left;">Candi Borobudur</h1>
+            <hr>
+            <p style="text-align: left;" >Candi legendaris ini diperkirakan dibangun pada abad ke-8, tepatnya sekitar tahun 750-an masehi pada masa pemerintahan dinasti Syailendra. Pembangunannya diperkirakan berlangsung sekitar 75 tahun sampai akhirnya rampung pada saat pemerintahan raja Samaratungga berlangsung. Candi Borobudur terletak diatas bukit hijau yang asri di mana Sobat Pesona bisa menyaksikan bukit-bukit hijau lain di sekitarnya. Bangunannya sendiri terdiri atas jutaan blok batu yang dibuat kedalam tiga struktur yang menggambarkan tingkatan alam semesta menurut filsafat Buddha. Bangunan kolosal ini juga dihiasi oleh 2.672 panel relief dan 504 patung Buddha. 
+                <br><br>
+                Terjadinya erupsi Gunung Merapi yang dahsyat pada sekitar tahun 1006 menyebabkan Candi Borobudur tertimbun oleh debu vulkanik selama ratusan tahun lamanya. Beberapa abad kemudian, Candi Borobudur akhirnya ditemukan kembali pada tahun 1814 oleh seorang insinyur Belanda bernama Hermanus Christiaan Cornelius, ketika kerajaan Inggris yang diwakili oleh Thomas Stamford Raffles menduduki beberapa bagian pulau Jawa, termasuk Jawa Tengah. Setelah Indonesia merdeka, pada akhir tahun 60-an pemerintah bekerja sama dengan UNESCO untuk merenovasi Candi Borobudur selama bertahun-tahun, sampai akhirnya UNESCO menetapkan mahakarya agung tersebut sebagai Situs Warisan Dunia di tahun 1991.
+            </p>
+        </section>
+
+        <!-- Destinasi Menarik -->
+        <section id="destinasi" class="section-container">
+            <h1 style="text-align: left;">Destinasi Menarik di Candi Borobudur</h1>
+            <hr>
+            <p style="text-align: left;">Tak hanya menawarkan keajaiban dunia, di sini Sobat Pesona juga bisa menemukan beraneka ragam objek wisata lainnya yang tidak kalah menarik. Di sekitar candi, terdapat tiga museum yang Sobat Pesona bisa kunjungi untuk menambah wawasan, yaitu Museum Borobudur, Museum Kapal Samudraraksa, dan Museum MURI. Jika ada di antara Sobat Pesona yang ingin melihat pemandangan luar biasa Candi Borobudur dari kejauhan, maka Sobat Pesona wajib mendatangi Punthuk Setumbu yang berlokasi di bagian barat Candi Borobudur. Di sini, Sobat Pesona juga bisa menyaksikan indahnya matahari terbit atau terbenam di masing-masing ufuk. Hampir semua wisatawan yang berlibur di Bali memasukkan tempat-tempat berikut ini kedalam daftar kunjungannya
+                <br><br>
+            </p>
+            <div class="destinations">
+                <div class="destination-item">
+                    <img class="gambar" src="Borobudur img/Galeri Unik & Seni Borobudur Indonesia.png" alt="Galeri Unik & Seni Borobudur Indonesia">
+                    <h3>Galeri Unik & Seni Borobudur Indonesia</h3>
+                    <p>Galeri Unik & Seni Borobudur Indonesia atau GUSBI merupakan museum yang juga terletak di kawasan Candi Borobudur. </p>
+                </div>
+                <div class="destination-item">
+                    <img class="gambar" src="Borobudur img/Museum Borobudur.png" alt="Museum Borobudur">
+                    <h3>Museum Borobudur</h3>
+                    <p>Di sebelah Museum Kapal Samudraraksa berdiri juga sebuah museum Karmawibhangga atau juga disebut Museum Borobudur. Museum ini menampilkan gambar relief Karmawibhangga yang terukir pada kaki tersembunyi Borobudur, beberapa blok batu Borobudur yang terlepas, serta temuan artefak arkeologi yang ditemukan di sekitar Borobudur dan lokasi lain di Jawa Tengah.</p>
+                </div>
+                <div class="destination-item">
+                    <img class="gambar" src="Borobudur img/Museum Kapal Samudraraksa.png" alt="Museum Kapal Samudraraksa">
+                    <h3>Museum Kapal Samudraraksa</h3>
+                    <p>Museum Kapal Samudraraksa masih berada di Kawasan Taman Wisata Candi Borobudur, sekitar 280 meter berjalan kaki dari Candi Borobudur. Di dalam museum ini terdapat rekonstuksi Kapal Borobudur dalam ukuran sesungguhnya yang dinamai Kapal Samudra Raksa.</p>
+                </div>
+                <div class="destination-item">
+                    <img class="gambar" src="Borobudur img/Svargabumi.png" alt="Svargabumi">
+                    <h3>Svargabumi</h3>
+                    <p>Cuma satu kilometer dari Candi Borobudur, ada hamparan sawah yang hijau segar nih, Sob. Di lokasi ini banyak spot foto bagus, dengan background hamparan sawah, miniatur gapura candi, hammock, hingga ayunan</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Hal Menarik di Jogjakarta -->
+        <section id="hal-menarik" class="section-container">
+            <h1>Fakta-fakta Menarik Candi Borobudur</h1>
+            <ul class="hal-menarik-list">
+                <li>Borobudur menjadi wisata ziarah bagi umat Buddha</li>
+                <li>Relief di Candi Borobudur bercerita kisah kehidupan Buddha</li>
+                <li>Artefak Candi Borobudur tersebar di beberapa museum seluruh dunia</li>
+                <li>Candi Borobudur dibangun antara abad ke-8</li>
+                <li>Candi Borobudur ditemukan Gubernur Jenderal Inggris</li>
+            </ul>
+        </section>
+
+        <!-- Cara Menuju Borobudur -->
+        <section id="home" class="section-container">
+            <h1 style="text-align: left;">Cara Menuju Borobudur</h1>
+            <hr>
+            <br>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126548.74523253641!2d110.11706535872528!3d-7.61319565652806!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a8cf009a7d697%3A0xdd34334744dc3cb!2sBorobudur%20Temple!5e0!3m2!1sen!2sid!4v1726322145782!5m2!1sen!2sid" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <br><br>
+            <p style="text-align: left;" >Ada dua cara yang bisa Sobat Pesona tempuh untuk mencapai Magelang, yaitu melalui jalur udara dan jalur darat. Jalur udara bisa dicapai menggunakan pesawat terbang sedangkan jalur darat bisa ditempuh menggunakan transportasi mobil atau kereta api.</p>
+            <ul style="text-align: left;">
+                <li><b>Jalur udara:</b> Magelang bisa dijajaki Sobat Pesona dengan jalur udara yang mendarat di Bandar Udara Internasional Adisutjipto yang ada di Kota Yogyakarta. Setelah itu Sobat Pesona bisa melanjutkan perjalanan ke Kota Magelang menggunakan angkutan umum atau sewa kendaraan selama 1 jam perjalanan.</li>
+                <li><b>Jalur darat:</b> Sobat Pesona bisa melalui Jalur Tol Trans Jawa dari Jakarta dengan waktu perjalanan kurang lebih 8 jam  menggunakan mobil pribadi. Atau, bisa juga naik bis antar kota yang berhenti di Terminal Tidar atau yang juga dikenal dengan sebutan Terminal Soekarno-Hatta.</li>
+            </ul>
+            <br>
+            <p style="text-align: left;">Alternatif lainnya adalah dengan menggunakan kereta api dari stasiun kota besar di Jawa menuju Stasiun Yogyakarta, baik di Stasiun Tugu atau Lempuyangan. Lalu, dilanjutkan dengan angkutan umum atau menyewa kendaraan ke Kota Magelang kurang lebih sekitar 1 jam perjalanan.</p>
+        </section>
+
+        <!-- Footer -->
+        <link rel="stylesheet" href="Footer.css">
+        <footer style="position: relative;">
+         <div class="footer-content">
+             <div class="footer-logo">
+                 <h1>GoDestinasi</h1>
+             </div>
+             <div class="footer-links">
+                 <ul>
+                    <li><a href="About.html">Tentang Kami</a></li>
+                    <li><a href="index.html.html">Destinasi</a></li>
+                 </ul>
+             </div>
+             <div class="footer-contact">
+                 <p>Hubungi Kami:</p>
+                 <p>Email: info@GoDestinasi.com</p>
+                 <p>Telepon: +62 123 456 789</p>
+             </div>
+             <div class="container">
+                <p>Follow Us</p>
+                <i class='bx bxl-instagram' ></i>
+                <i class='bx bxl-facebook-circle'></i>
+                <i class='bx bxl-tiktok'></i>
+                <i class='bx bxl-youtube'></i>
+            </div>
+         </div>
+         <div class="footer-bottom">
+             <p>&copy; 2024 GoDestinasi. Semua Hak Dilindungi.</p>
+         </div>
+     </footer>
+</body>
+</html>

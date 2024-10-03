@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GoDestinasi</title>
+    <link rel="stylesheet" href="kelompok.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-brand">GoDestinasi</div>
+        <ul class="navbar-menu">
+            <li><a href="index.html.html">Home</a></li>
+            <li><a href="login.html">User</a></li>
+            <li><a href="#search">Search</a></li>
+            <li><a href="About.html">About</a></li>
+        </ul>
+    </nav>
+
+    <!-- ImageSlide -->
+      <!-- Slider Container -->
+    <div class="slider-container">
+        <!-- Slide Images -->
+        <div class="slide fade">
+            <img src="bali img/nusapenida.jpeg" alt="Gambar 1">
+        </div>
+        <div class="slide fade">
+            <img src="bali img/pantaikuta.jpeg" alt="Gambar 2">
+        </div>
+        <div class="slide fade">
+            <img src="bali img/purabesakih.jpeg" alt="Gambar 3">
+        </div>
+        <div class="slide fade">
+            <img src="bali img/ubud.jpg" alt="Gambar 4">
+        </div>
+
+        <!-- Navigation Arrows -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+
+    <!-- Dots Navigation -->
+    <div class="dots-container">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+    </div>
+
+    <script src="wisata.js"></script>
+    <!-- Bagian Utama -->
+    <main>
+        <link rel="stylesheet" href="wisata.css">
+        <!-- Tentang Bali -->
+        <section id="home" class="section-container">
+            <h1 style="text-align: left;">Bali</h1>
+            <hr>
+            <p style="text-align: left;" >Bali adalah sebuah provinsi di Indonesia yang terletak pada bagian barat Kepulauan Nusa Tenggara dan beribu kota di Kota Denpasar. Pulau Bali, yang merupakan pulau terbesar di Provinsi Bali, memiliki beberapa julukan, di antaranya Pulau Dewata dan Pulau Seribu Pura..Bali adalah salah satu destinasi wisata terpopuler di dunia, terkenal karena keindahan alamnya yang memukau, budaya yang kaya, dan keramahan penduduknya. Pulau ini menawarkan pantai yang indah, pemandangan gunung, sawah hijau, dan banyak kuil yang megah.</p>
+        </section>
+
+        <!-- Destinasi Menarik -->
+        <section id="destinasi" class="section-container">
+            <h1 style="text-align: left;">Destinasi Menarik di Bali</h1>
+            <hr>
+            <p style="text-align: left;">Bali adalah primadona pariwisata Indonesia yang sudah terkenal di seluruh dunia. Selain terkenal dengan keindahan alam, terutama pantainya, Bali juga terkenal dengan kesenian dan budayanya yang unik dan menarik. Industri pariwisata berpusat di Bali Selatan dan di beberapa daerah lainnya.Selain itu juga daya tarik utama Pulau Bali tentu saja terdapat pada tempat-tempat wisatanya. Hampir semua wisatawan yang berlibur di Bali memasukkan tempat-tempat berikut ini kedalam daftar kunjungannya</p>
+            <div class="destinations">
+                <div class="destination-item">
+                    <img class="gambar" src="bali img/pantaikuta.jpeg" alt="Pantai Kuta">
+                    <h3>Pantai Kuta</h3>
+                    <p>Pantai yang terkenal dengan ombaknya yang cocok untuk berselancar serta pemandangan matahari terbenam yang indah.</p>
+                </div>
+                <div class="destination-item">
+                    <img class="gambar" src="bali img/ubud.jpg" alt="Ubud">
+                    <h3>Ubud</h3>
+                    <p>Pusat seni dan budaya Bali, dikelilingi oleh sawah hijau dan sungai yang indah. Ubud juga menawarkan banyak galeri seni dan pertunjukan budaya.</p>
+                </div>
+                <div class="destination-item">
+                    <img class="gambar" src="bali img/purabesakih.jpeg" alt="Pura Besakih">
+                    <h3>Pura Besakih</h3>
+                    <p>Kuil Hindu terbesar dan tersuci di Bali, terletak di lereng Gunung Agung.</p>
+                </div>
+                <div class="destination-item">
+                    <img class="gambar" src="bali img/nusapenida.jpeg" alt="Nusa Penida">
+                    <h3>Nusa Penida</h3>
+                    <p>Pulau yang menawarkan pemandangan pantai yang eksotis dan menyelam yang spektakuler.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Hal Menarik di Bali -->
+        <section id="hal-menarik" class="section-container">
+            <h1>Hal-Hal Menarik di Bali</h1>
+            <ul class="hal-menarik-list">
+                <li>keindahan matahari terbenam di Pantai Tanah Lot.</li>
+                <li>Mengunjungi pasar seni di Ubud untuk kerajinan tangan unik.</li>
+                <li>Menyaksikan tari Kecak di Uluwatu dengan latar belakang tebing dan laut.</li>
+                <li>Berjalan-jalan di sawah terasering Tegalalang.</li>
+                <li>Mencicipi kopi Luwak di berbagai kafe dan perkebunan kopi di Bali.</li>
+            </ul>
+        </section>
+
+        <!-- Cara Menuju Bali -->
+        <section id="home" class="section-container">
+            <h1 style="text-align: left;">Cara Menuju Bali</h1>
+            <hr>
+            <br>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1010291.3899489322!2d115.07157704999999!3d-8.4554714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd141d3e8100fa1%3A0x24910fb14b24e690!2sBali!5e0!3m2!1sen!2sid!4v1726324601530!5m2!1sen!2sid" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>            <br><br>
+            <p style="text-align: left;" >Ada banyak moda transportasi yang dapat membantu Sobat Pesona berkeliling selama di Bali. Bagi Sobat Pesona yang tidak membawa kendaraan pribadi, sudah ada banyak transportasi online yang beroperasi di Bali. Selain itu, banyak juga tempat penyewaan motor dengan melengkapi persyaratan berupa KTP dan SIM C lalu membayar biaya sewa per harinya.</p>
+            <ul style="text-align: left;">
+                <li><h3>Jalur Udara</h3></li>
+                <p>Bagi Sobat Pesona yang memilih transportasi udara untuk menuju ke Bali, pilihlah tujuan Bandara Internasional Ngurah Rai. Penerbangan internasional dan nasional tersedia sepanjang waktu dan siap membawa pengunjung menuju Pulau Dewata. Bandara Ngurah Rai dijadwalkan tutup selama 24 jam pada Hari Raya Nyepi yang biasanya jatuh pada bulan Maret setiap tahunnya.</p>
+                <li><h3>Jalur Darat</h3></li>
+                <p>Kehadiran jalur Tol Trans Jawa, membuat Sobat Pesona mencapai Bali lebih mudah dan cepat. Jika dulu perjalanan Jakarta-Bali membutuhkan waktu hingga 38 jam, kini durasi perjalanan bisa berkurang setengahnya, menjadi kurang lebih 20 jam saja. Selama perjalanan menuju Bali, Sobat Pesona juga bisa lho turun di beberapa spot cantik yang dilintasi!.</p>
+                <li><h3>Jalur Laut</h3></li>
+                <p>Sobat Pesona dapat mengakses Bali dengan kapal feri dari Lombok, Nusa Tenggara Barat. Feri ini akan membawa Sobat Pesona menuju pelabuhan Padang Bai, Karangasem. Nah, sampai di Karangasem, ada berbagai tempat wisata yang bisa Sobat Pesona eksplorasi, seperti Pantai Candidasa, Pura Luhur Lempuyang, Taman Ujung Sukasada, Taman Air Tirta Gangga, dan yang lainnya.
+                    <br>
+                    Dari Pulau Jawa, Sobat Pesona bisa mencapai Bali dengan feri dari Banyuwangi, Jawa Timur. Pelabuhan yang akan dicapai di Bali adalah Pelabuhan Gilimanuk, Jembrana. Pelabuhan ini dekat dengan Taman Nasional Bali Barat, lho! Sobat Pesona bisa mampir sebentar dan menyaksikan jalak putih khas Bali yang langka.</p>
+            </ul>
+        </section>
+
+        <!-- Footer -->
+        <link rel="stylesheet" href="Footer.css">
+        <footer style="position: relative;">
+         <div class="footer-content">
+             <div class="footer-logo">
+                 <h1>GoDestinasi</h1>
+             </div>
+             <div class="footer-links">
+                 <ul>
+                    <li><a href="About.html">Tentang Kami</a></li>
+                    <li><a href="index.html.html">Destinasi</a></li>
+                 </ul>
+             </div>
+             <div class="footer-contact">
+                 <p>Hubungi Kami:</p>
+                 <p>Email: info@GoDestinasi.com</p>
+                 <p>Telepon: +62 123 456 789</p>
+             </div>
+             <div class="container">
+                <p>Follow Us</p>
+                <i class='bx bxl-instagram' ></i>
+                <i class='bx bxl-facebook-circle'></i>
+                <i class='bx bxl-tiktok'></i>
+                <i class='bx bxl-youtube'></i>          
+            </div>
+         </div>
+         <div class="footer-bottom">
+             <p>&copy; 2024 GoDestinasi. Semua Hak Dilindungi.</p>
+         </div>
+     </footer>
+</body>
+</html>
